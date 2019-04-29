@@ -1,0 +1,19 @@
+body {
+  overflow: hidden;
+  margin: 0 !important;
+}
+.impowerBox .title,
+.impowerBox .info {
+  display: none;
+}
+.impowerBox .qrcode {
+  width: 180px;
+  margin-top: 0;
+  box-sizing: border-box;
+}
+/* .status_icon {
+  display: none;
+}
+.impowerBox .status {
+  text-align: center;
+} */
