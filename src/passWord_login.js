@@ -6,25 +6,7 @@ import './passWord_login.css';
 
 class passWord extends Component {
   render() {
-    const wechat = {
-      redirectURI: 'https://passport.medatc.cc/wechat/callback',
-      // 微信公众平台 服务号 微信浏览器
-      mp: {
-        appID: 'wxa5284c0374e3f128',
-        scope: 'snsapi_userinfo',
-        connectURI: 'https://open.weixin.qq.com/connect/oauth2/authorize'
-      },
-      // 微信开放平台 PC网站应用
-      wp: {
-        appID: 'wxc887a4d90c516755',
-        scope: 'snsapi_login',
-        connectURI: 'https://open.weixin.qq.com/connect/qrconnect'
-      },
-      // 微信开放平台 移动应用
-      op: {
-        appID: ''
-      }
-    }
+    
     return (
       <div className="default_page">
 
