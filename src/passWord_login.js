@@ -6,7 +6,7 @@ import './passWord_login.css';
 
 class passWord extends Component {
   render() {
-    
+
     return (
       <div className="default_page">
 
@@ -23,7 +23,7 @@ class passWord extends Component {
         <div className="child">
             <div class="login-qrcode">
                 <iframe
-                    src={`https://open.weixin.qq.com/connect/qrconnect?appid=wxc887a4d90c516755&redirect_uri=https%3A%2F%2Fpassport.medatc.cc%2Fwechat%2Fcallback%3Fredirect%3Dhttps%253A%252F%252Fapi.test.medatc.cc%252Fuser%252Fsso%252Fcallback%252Fhttps%25253A%25252F%25252Ftest.medatc.cc%25252Fdashboard&response_type=code&scope=snsapi_login&href=${encodeURIComponent(wechat.redirectURI.replace('/wechat/callback', './wechatCodeStyle.css'))}#wechat_redirect`}
+                    src={`hehe`}
                 />
             </div>
         </div>
